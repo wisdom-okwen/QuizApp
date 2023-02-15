@@ -1,3 +1,5 @@
+package QuizApp;
+
 import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
@@ -51,7 +53,6 @@ public class Quiz implements ActionListener {
     JLabel answerLabelB = new JLabel();
     JLabel answerLabelC = new JLabel();
     JLabel answerLabelD = new JLabel();
-    JLabel timeLabel = new JLabel();
     JLabel secondsLeft = new JLabel();
     JTextField numberRight = new JTextField();
     JTextField percentage = new JTextField();
